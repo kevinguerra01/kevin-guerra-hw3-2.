@@ -1,0 +1,5 @@
+investment = float(input("how much would you like to invest? "))
+num_years = float(input("how many years do you want your money to grow? "))
+interest_rate = float(input("what is the interest rate going to be? "))
+money_profit = investment*(1+interest_rate)**num_years
+print("your porfit is" , money_profit)
